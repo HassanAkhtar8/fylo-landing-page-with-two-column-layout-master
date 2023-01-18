@@ -53,7 +53,7 @@ h2 {
   font-weight: 700;
 }
 
-#email {
+.email {
   margin-top: 2rem;
   color: hsl(0deg, 0%, 75%);
   padding-left: 0.5rem;
@@ -133,7 +133,7 @@ main .first .ill1:hover {
   cursor: pointer;
   background-color: black;
 }
-main .first #email {
+main .first .email {
   margin-bottom: 1rem;
 }
 main .second {
@@ -328,7 +328,7 @@ footer .brands .fa-brands:hover {
     display: flex;
     flex-direction: row-reverse;
   }
-  main .first #email {
+  main .first .email {
     width: 50%;
   }
   main .first button {
@@ -407,7 +407,7 @@ footer .brands .fa-brands:hover {
     font-size: 1.8rem;
     line-height: 2rem;
   }
-  main .third div #email {
+  main .third div .email {
     width: 80%;
   }
   main .third div button {
