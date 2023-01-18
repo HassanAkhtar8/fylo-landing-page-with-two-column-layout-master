@@ -1,0 +1,437 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.1;
+  font-weight: 300;
+  font-size: 1.2rem;
+  margin-top: 0;
+}
+
+p {
+  margin-top: 0;
+  line-height: 1.1;
+}
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  box-sizing: border-box;
+  display: grid;
+  min-height: 100vh;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, h3 {
+  font-family: "Raleway", sans-serif;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+#email {
+  margin-top: 2rem;
+  color: hsl(0deg, 0%, 75%);
+  padding-left: 0.5rem;
+  width: 100%;
+  height: 2rem;
+  border: 1.5px solid hsl(238deg, 22%, 44%);
+  border-radius: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+
+button {
+  width: 100%;
+  height: 2rem;
+  background-color: rgb(48, 101, 248);
+  border-radius: 0.3rem;
+  border: none;
+  color: hsl(240deg, 75%, 98%);
+}
+
+button:hover {
+  background-color: rgba(48, 101, 248, 0.75);
+  color: hsl(243deg, 87%, 12%);
+  font-size: 0.8rem;
+}
+
+header {
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+header ul {
+  display: flex;
+  align-items: center;
+}
+header ul li {
+  margin-left: 0.8rem;
+  color: hsl(238deg, 22%, 44%);
+  transition: all 100ms ease-in;
+}
+header ul li:hover {
+  color: hsl(243deg, 87%, 12%);
+  font-size: 1rem;
+  background-image: linear-gradient(hsl(0deg, 0%, 75%), hsl(240deg, 75%, 98%));
+  border-radius: 1.2rem;
+  cursor: pointer;
+}
+header .logo {
+  width: 5rem;
+  cursor: col-resize;
+}
+
+main h1 {
+  color: hsl(243deg, 87%, 12%);
+  margin-top: 2rem;
+  line-height: 1.6rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-weight: 700;
+}
+main p {
+  color: hsl(238deg, 22%, 44%);
+  line-height: 1.2rem;
+}
+main .first {
+  padding: 1rem;
+  margin-bottom: 4rem;
+}
+main .first p {
+  text-align: center;
+}
+main .first .ill1 {
+  width: 100%;
+  margin-top: 15%;
+}
+main .first .ill1:hover {
+  cursor: pointer;
+  background-color: black;
+}
+main .first #email {
+  margin-bottom: 1rem;
+}
+main .second {
+  padding: 1rem;
+  /*  .line{
+      margin-left: 27%;
+      width: 43%;
+      height: 2px;
+      background-color: green;
+  }
+  */
+}
+main .second h2 {
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+main .second .ill2 {
+  width: 100%;
+  position: relative;
+}
+main .second .ill2:hover {
+  cursor: pointer;
+  background-color: black;
+}
+main .second .arr {
+  text-align: center;
+  margin: 1.5rem;
+  margin-bottom: 2.5rem;
+  color: hsl(170deg, 45%, 43%);
+  font-size: 0.7rem;
+}
+main .second .arr .lo {
+  position: relative;
+  cursor: pointer;
+  transition: all 500ms ease-out;
+}
+main .second .arr .lo:hover.lo::after {
+  width: 10%;
+  align-items: center;
+  opacity: 0.55;
+}
+main .second .arr .lo:hover {
+  opacity: 0.65;
+  font-size: 1rem;
+}
+main .second .arr .lo::after {
+  content: "";
+  width: 100%;
+  left: 0;
+  bottom: -0.4rem;
+  height: 0.1rem;
+  background-color: hsl(170deg, 45%, 43%);
+  position: absolute;
+  transition: all 1s ease-out;
+}
+main .second .arr .lo:active {
+  opacity: 1;
+}
+main .second .testimony:hover {
+  background-image: linear-gradient(rgb(48, 101, 248), hsl(170deg, 45%, 43%));
+  box-shadow: 1px 2px 1px 2px hsl(238deg, 22%, 44%);
+}
+main .second .testimony:hover p {
+  color: black;
+}
+main .second .testimony {
+  margin: 1.2rem;
+  margin-bottom: 5rem;
+  background-color: white;
+  padding: 0.8rem;
+  box-shadow: 1px 2px 1px 2px rgb(197, 194, 194);
+}
+main .second .testimony p {
+  font-size: 0.8rem;
+}
+main .second .testimony .profile {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+main .second .testimony .dp {
+  display: flex;
+  margin-top: 1rem;
+}
+main .second .testimony .dp h3 {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+main .second .testimony .dp p {
+  font-size: 0.6rem;
+  font-weight: 600;
+}
+main .third {
+  background-color: hsl(238deg, 22%, 44%);
+  padding: 2.5rem;
+}
+main .third p, main .third h2 {
+  color: hsl(240deg, 75%, 98%);
+  line-height: 1.2rem;
+  text-align: center;
+}
+main .third P {
+  font-size: 0.8rem;
+}
+main .third h2 {
+  margin-bottom: 1.2rem;
+}
+
+footer {
+  padding: 2rem;
+  padding-top: 3rem;
+  background-color: hsl(243deg, 87%, 12%);
+  color: hsl(240deg, 75%, 98%);
+}
+footer .con {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+footer .contact {
+  display: flex;
+  margin-bottom: 1rem;
+}
+footer .contact > * {
+  margin-right: 1rem;
+}
+footer ul {
+  margin-bottom: 2.5rem;
+}
+footer ul li {
+  font-size: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+footer ul li:hover {
+  text-decoration: underline;
+}
+footer .brands {
+  margin-left: 40%;
+}
+footer .brands .fa-brands {
+  font-size: 1.2rem;
+  transition: all 100ms ease-in;
+}
+footer .brands .fa-square-instagram {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+footer .brands .fa-brands:hover {
+  font-size: 1.5rem;
+  cursor: pointer;
+  background-color: hsl(170deg, 45%, 43%);
+}
+
+@media screen and (min-width: 400px) {
+  body {
+    padding: 2rem;
+  }
+  main .first .ill1 {
+    width: 60%;
+    margin-left: 15%;
+  }
+  main .second .ill2 {
+    width: 60%;
+    margin-left: 15%;
+  }
+}
+@media screen and (min-width: 800px) {
+  body {
+    padding: 0;
+  }
+  header {
+    padding: 2rem;
+    font-size: 1rem;
+  }
+  header .logo {
+    width: 8rem;
+  }
+  header ul li {
+    margin-left: 1.5rem;
+  }
+  header ul li:hover {
+    font-size: 1.3rem;
+  }
+  main h1 {
+    font-size: 2rem;
+  }
+  main .first {
+    padding-left: 1rem;
+    margin-bottom: 0;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  main .first #email {
+    width: 50%;
+  }
+  main .first button {
+    width: 30%;
+  }
+  main .first div {
+    width: 50%;
+  }
+  main .first .ill1 {
+    width: 24rem;
+    margin-top: 0;
+  }
+  main .first .ill1:hover {
+    background-color: transparent;
+    cursor: default;
+  }
+  main .second::after {
+    content: "";
+    width: 100%;
+    height: 3rem;
+    z-index: 1;
+    background-image: url("/images/bg-curve-mobile.svg");
+    position: absolute;
+    top: 0;
+  }
+  main .second {
+    padding: 0;
+    position: relative;
+  }
+  main .second .seco {
+    margin-top: 2rem;
+    background-color: hsl(240deg, 75%, 98%);
+    display: flex;
+    flex-direction: row-reverse;
+    padding-left: 1.5rem;
+  }
+  main .second .seco h2 {
+    font-size: 1.8rem;
+  }
+  main .second .seco div {
+    width: 50%;
+  }
+  main .second .seco .ill2 {
+    width: 24rem;
+    margin-top: 0;
+    padding-top: 0;
+  }
+  main .second .seco .ill2:hover {
+    background-color: transparent;
+    cursor: default;
+  }
+  main .second .seco .arr {
+    text-align: left;
+    margin-left: 0;
+  }
+  main .second .seco .arr .lo:hover {
+    font-size: 1rem;
+  }
+  main .second .seco .testimony {
+    width: 80%;
+    margin-left: 0;
+  }
+  main .third {
+    display: flex;
+    padding: 2rem;
+  }
+  main .third div {
+    margin-right: 1.5rem;
+    width: 50%;
+  }
+  main .third div p, main .third div h2 {
+    text-align: left;
+    padding-right: 3rem;
+  }
+  main .third div h2 {
+    font-size: 1.8rem;
+    line-height: 2rem;
+  }
+  main .third div #email {
+    width: 80%;
+  }
+  main .third div button {
+    width: 40%;
+  }
+  footer {
+    display: flex;
+  }
+  footer .brands .fa-brands:hover {
+    font-size: 2rem;
+  }
+  footer .fa-square-instagram {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+  footer ul {
+    margin-top: 6rem;
+  }
+  footer .brands {
+    margin-top: 6rem;
+    margin-left: 1rem;
+    margin-right: 0;
+  }
+  footer > * {
+    margin-right: 5rem;
+  }
+}/*# sourceMappingURL=input.css.map */
