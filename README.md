@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 
-- Live Site URL: [Live Site URL]()
+- Live Site URL: [Live Site URL](https://hassanakhtar8.github.io/fylo-landing-page-with-two-column-layout-master/)
 
 
 ### Built with
