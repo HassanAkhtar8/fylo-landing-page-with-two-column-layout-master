@@ -26,7 +26,6 @@ Users should be able to:
 
 ### Links
 
-
 - Live Site URL: [Live Site URL](https://hassanakhtar8.github.io/fylo-landing-page-with-two-column-layout-master/)
 
 
@@ -42,5 +41,5 @@ Users should be able to:
 
 ## Author
 
+- Hassan Akhtar
 - Website - [Github Profile](https://github.com/HassanAkhtar8)
-- Frontend Mentor - [@HassanAkhtar8](https://www.frontendmentor.io/profile/HassanAkhtar8)
